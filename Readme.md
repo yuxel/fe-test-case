@@ -10,7 +10,7 @@ on desktop design:
     - if the input's length is >= 3, then you should open this dropdown (you can just show it without an effect) and send request to http://test.sonsuzdongu.com/query.php?keyword=[KEYWORD HERE] . ie: http://test.sonsuzdongu.com/query.php?keyword=skirt
     - this is a mock service and it returns you the response about ~1 seconds, so its better to show a "loading.gif" in that dropdown. You can choose any loading.gif.
     - When response comes from server, put suggestion links, which are "terms" on response.
-    - if the input's length is < 3 or the XHR result is an empty array you should kill all ongoing XHR requests and close the dropdown7
+    - if the input's length is < 3 or the XHR result is an empty array you should kill all ongoing XHR requests and close the dropdown
 * and an image carousel slider below this input field. you can use images from http://lorempixel.com/940/375/fashion/?someRandomStrings to fit in that place. And implement a carousel slider with these images. The design of this carousel (like arrows, and dots) are not so important at this level. We just want a working carousel. You can use any library/plugin you want.
 
 
@@ -24,12 +24,12 @@ on mobile design:
 
 In this test case, I want to see you to implement;
 
-* design with valid/semantic HTML5 and SASS/Less. You can use any framework you want on JavaScript side (Angular, jQuery, etc)
+* design with valid/semantic HTML5 and SASS/Less. You can use any framework you want on JavaScript side (Angular, jQuery, etc). Include this framework with *bower*
 * use grunt/gulp tasks to compile less/sass, combine them into one css
 * use grunt/gulp tasks to combine javascript files into one js files
 * logo, search icon, basket icon and hamburger menu icon (on mobile page) should be in "sprite" file. so, use grunt/gulp tasks to automate this process (see grunt-spritesmith for details)
-* use a plugin for the image carousel
+* use a plugin for the image carousel and use bower to include this plugin
 * document the code you've written with comments
 
 
-Have your time to build this test case. You can send the result anytime you want. But please keep track time and tell us how much time you spent on this case.
+Take your time to build this test case. You can send the result anytime you want. But please keep track time and tell us how much time you spent on this case.
